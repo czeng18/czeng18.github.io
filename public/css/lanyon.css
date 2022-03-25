@@ -38,7 +38,8 @@
 html,
 body {
   overflow-x: hidden;
-  background-color: #212121
+  background-color: #212121;
+  color: #999999
 }
 
 html {
@@ -51,7 +52,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #EEEEEE;
     letter-spacing: -.025rem;
 }
-
 
 /*
  * Wrapper
@@ -315,7 +315,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #EEEEEE;
 }
 .page-title,
 .post-title {
@@ -444,17 +444,18 @@ a.pagination-item:hover {
 .theme-dark .container a {
     color: #EEEEEE;
 }
-/* .theme-dark .sidebar-toggle, */
-.theme-dark .related-posts li a:hover {
-  color: #414141;
-}
 
 .theme-dark .sidebar-toggle:active, 
 .theme-dark #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #111111;
 }
 
-
+.message {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: #717171;
+    background-color: #191919;
+}
 
 /*
  * Overlay sidebar

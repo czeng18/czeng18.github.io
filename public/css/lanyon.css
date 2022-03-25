@@ -235,7 +235,7 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:active,
 #sidebar-checkbox:focus ~ .sidebar-toggle {
   color: #fff;
-  background-color: #555;
+  background-color: #080808;
 }
 
 #sidebar-checkbox:checked ~ .sidebar-toggle {
@@ -460,7 +460,7 @@ a.pagination-item:hover {
           transform: translateX(0);
 }
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
-  box-shadow: 0 0 0 .25rem #414141;
+  box-shadow: 0 0 0 .25rem #666666;
 }
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);

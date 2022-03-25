@@ -539,10 +539,12 @@ a.pagination-item:hover {
 .theme-dark #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #212121;
 }
-.theme-dark .container a,
+.theme-dark .container a {
+    color: #EEEEEE;
+}
 .theme-dark .sidebar-toggle,
 .theme-dark .related-posts li a:hover {
-  color: #212121;
+  color: #414141;
 }
 
 .theme-dark h1, h2, h3, h4, h5, h6 {
@@ -554,6 +556,16 @@ a.pagination-item:hover {
 
 .theme-dark body {
     background-color: #212121
+}
+
+.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
+  box-shadow: 0 0 0 .25rem #515151;
+}
+
+.theme-dark .sidebar, 
+.theme-dark .sidebar-toggle:active, 
+.theme-dark #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #111111;
 }
 
 

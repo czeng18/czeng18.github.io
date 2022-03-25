@@ -233,13 +233,10 @@ a.sidebar-nav-item:focus {
 }
 
 .sidebar-toggle:active,
+#sidebar-checkbox:checked ~ .sidebar-toggle
 #sidebar-checkbox:focus ~ .sidebar-toggle {
   color: #fff;
   background-color: #fff;
-}
-
-#sidebar-checkbox:checked ~ .sidebar-toggle {
-    background-color: #080808;
 }
 
 .sidebar-toggle:active:before,

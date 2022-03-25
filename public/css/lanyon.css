@@ -538,11 +538,19 @@ a.pagination-item:hover {
 .theme-dark #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #212121;
 }
-.theme-base-08 .container a,
-.theme-base-08 .sidebar-toggle,
-.theme-base-08 .related-posts li a:hover {
+.theme-dark .container a,
+.theme-dark .sidebar-toggle,
+.theme-dark .related-posts li a:hover {
   color: #212121;
 }
+
+.theme-dark h1, h2, h3, h4, h5, h6 {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #313131;
+    letter-spacing: -.025rem;
+}
+
 
 
 /*

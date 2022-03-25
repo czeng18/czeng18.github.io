@@ -3,7 +3,7 @@ title:               Caroline Zeng
 tagline:             'software engineer'
 description:         ''
 url:                 https://czeng18.github.io
-baseurl:             ''
+baseurl:             'https://github.com/czeng18/czeng18.github.io'
 paginate:            5
 permalink:           pretty
 

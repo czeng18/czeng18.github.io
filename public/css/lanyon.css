@@ -38,7 +38,6 @@
 html,
 body {
   overflow-x: hidden;
-  background-color: #313131;
 }
 
 html {
@@ -103,10 +102,10 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #111111;
 }
 .masthead-title a {
-  color: #505050;
+  color: #d0d0d0;
 }
 .masthead-title small {
   font-size: 75%;
@@ -548,8 +547,12 @@ a.pagination-item:hover {
 .theme-dark h1, h2, h3, h4, h5, h6 {
     font-family: "PT Sans", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    color: #313131;
+    color: #EEEEEE;
     letter-spacing: -.025rem;
+}
+
+.theme-dark body {
+    background-color: #212121
 }
 
 

@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #c0c0c0;
+  color: #a0a0a0;
   letter-spacing: 0;
 }
 
@@ -440,15 +440,10 @@ a.pagination-item:hover {
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
 
-/* Dark theme */
-.theme-dark .container a {
-    color: #EEEEEE;
-}
-
-.theme-dark .sidebar-toggle:active, 
+/* .theme-dark .sidebar-toggle:active, 
 .theme-dark #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #111111;
-}
+} */
 
 .message {
     margin-bottom: 1rem;

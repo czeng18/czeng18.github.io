@@ -1,7 +1,7 @@
 # Setup
 title:               Caroline Zeng
-tagline:             'tagline'
-description:         'description'
+tagline:             'software engineer'
+description:         ''
 url:                 https://czeng18.github.io
 baseurl:             ''
 paginate:            5
@@ -9,14 +9,14 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Caroline Zeng
   url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  email:             chzeng18@gmail.com
 
 # Gems
 plugins:
   - jekyll-paginate
 
 # Custom vars
-version:             1.1.0
+version:             0.0.1
 google_analytics_id: UA-146052-15

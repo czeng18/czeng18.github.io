@@ -444,12 +444,11 @@ a.pagination-item:hover {
 .theme-dark .container a {
     color: #EEEEEE;
 }
-.theme-dark .sidebar-toggle,
+/* .theme-dark .sidebar-toggle, */
 .theme-dark .related-posts li a:hover {
   color: #414141;
 }
 
-/* .theme-dark .sidebar,  */
 .theme-dark .sidebar-toggle:active, 
 .theme-dark #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #111111;

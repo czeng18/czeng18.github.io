@@ -3,8 +3,10 @@ layout: page
 title: Projects
 ---
 ## Chat Client  
-    things
+things
+
 ## Personal Website  
-    things
+things
+
 ## Port Check  
-    things
+things

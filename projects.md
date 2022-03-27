@@ -2,9 +2,9 @@
 layout: page
 title: Projects
 ---
-* Chat Client  
+## Chat Client  
     things
-* Personal Website  
+## Personal Website  
     things
-* Port Check  
+## Port Check  
     things

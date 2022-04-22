@@ -19,6 +19,15 @@ This website.
 I made this website as part of my engineering communications class 
 (ENGRC 3025: Creating and Communicating Your Digital Professionalism).
 
+## Photosynthesis  
+February – May 2021  
+[Repo](https://github.com/czeng18/cs3110-photosynthesis)  
+Terminal implementation of a board game.  
+As part of a class (CS3110: Data Structures and Functional Programming), in a team of 3 students, 
+we implemented the board game Photosynthesis, which involves placing trees on a hexagonal board 
+in order to earn points.  I implemented the majority of the game logic, including piece placement, 
+point tracking, and distance and shadow-casting calculations.
+
 ## Port Check  
 March – August 2019
 Database Backend Development

@@ -11,20 +11,20 @@ title: Home
         I've worked mostly in Java and Python, and have worked a little bit with Docker and AWS.
     </p>
     <h1>Education</h1>
-    <a class="btn">
-        <i class="bi bi-caret-right collapsible" role="img" aria-label="Cornell expandable"></i>
-        <em>Cornell University</em>, Bachelor of Computer Science
+    <a class="btn collapsible cu">
+        <i class="bi bi-caret-right" role="img" aria-label="Cornell expandable"></i>
     </a>
-    <div class="content">
+    <em>Cornell University</em>, Bachelor of Computer Science
+    <div class="collapse" id="cu-content">
         I studied computer science, mainly higher level coursework like machine learning, cryptography, and
         programming languages. <br>
         Graduating May 2022
     </div>
-    <a class="btn">
+    <a class="btn collapsible nu">
         <i class="bi bi-caret-right collapsible" role="img" aria-label="Northeastern expandable"></i>
-        <em>Northeastern University</em>, Bachelor of Computer Science and Mathematics
     </a>
-    <div class="content">
+    <em>Northeastern University</em>, Bachelor of Computer Science and Mathematics
+    <div class="collapse" id="nu-content">
         I studied computer science and mathematics as a combined major. I gained a strong math background here as a
         math major, as well as experience in explaining things to other people through work as a teaching assistant.
         <br>
@@ -33,19 +33,22 @@ title: Home
     </div>
 
     <script>
-        var coll = document.getElementsByClassName("collapsible");
+        var btns = ["cu", "nu"]
+        // var coll = document.getElementsByClassName("collapsible");
         var i;
 
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + "px";
-                }
-            });
+        for (i = 0; i < btns.length; i++) {
+            this.getElementsByClassName(btns[i])
+                .addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var content = document.getElementById(btns[i] + "-content");
+                    // this.nextElementSibling;
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                });
         }
     </script>
     <!-- <ul>
